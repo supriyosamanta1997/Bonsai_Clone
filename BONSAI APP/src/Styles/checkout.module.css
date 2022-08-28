@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+   }
+   .outer{
+       height: 230px;
+       width: 100%;
+       border-bottom: 1px solid #ecf0f1;
+      
+   }
+   .inner{
+       height: 900px;
+       width: 58%;
+       margin: auto;
+       margin-top: 6%;
+       display: flex;
+       border-radius: 15px;
+   }
+   .innerleft{
+       height:900px;
+       width: 40%;
+       text-align: left;
+       color: #292a2d;
+       background-color: #fff;
+       border-radius: 10px 0 0 10px;
+       background-position: top left;
+       border: 1px solid #ecf0f1;
+       border-right: none;
+       background-size: cover;
+       background-image: url(https://app.hellobonsai.com/assets/getting_started/tools-graphic-33c4cea9504eb12a140b92df03f62813ec40d382bf2b9007def3ae0745785594.png);
+       padding:30px
+   }
+   .innerright{
+       height: 900px;
+       width: 60%;
+       border: 1px solid #ecf0f1;
+       background-color: #fff;
+   
+   }
+   .rightheader{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-align: left;
+    box-sizing: border-box;
+    margin: auto;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #292a2d;
+    line-height: 1.2em;
+    word-spacing: normal;
+    font-size: 25px;
+    max-width: 100%;
+    margin-top: 12%;
+}
+.rightmain{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-align: left;
+    box-sizing: border-box;
+    margin: auto;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #292a2d;
+    line-height: 1.2em;
+    word-spacing: normal;
+    font-size: 25px;
+    max-width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
